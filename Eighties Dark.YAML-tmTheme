@@ -1,0 +1,242 @@
+# [PackageDev] target_format: plist, ext: tmTheme
+name: Eighties Dark
+semanticClass: base16.eighties.dark
+author: Chris Kempson (http://chriskempson.com)
+colorSpaceName: sRGB
+uuid: 36594751-36ac-443a-9f2f-111b815085cf
+gutterSettings:
+  background: '#393939'
+  divider: '#393939'
+  foreground: '#747369'
+  selectionBackground: '#515151'
+  selectionForeground: '#a09f93'
+settings:
+- settings:
+    background: '#2d2d2d'
+    caret: '#d3d0c8'
+    foreground: '#d3d0c8'
+    invisibles: '#747369'
+    lineHighlight: '#393939'
+    selection: '#515151'
+- name: Text
+  scope: variable.declaration
+  settings:
+    foreground: '#f2f0ec'
+- name: Comments
+  scope: comment, punctuation.definition.comment
+  settings:
+    foreground: '#747369'
+- name: Delimiter
+  scope: meta.delimiter
+  settings:
+    foreground: '#a09f93'
+- name: Punctuation
+  scope: punctuation
+  settings:
+    foreground: '#a09f93'
+- name: Punctuation
+  scope: punctuation.definition.string, punctuation.definition.array, punctuation.definition.object,
+    punctuation.parameters, punctuation.definition.variable
+  settings:
+    foreground: '#d3d0c8'
+- name: Delimiters
+  scope: none
+  settings:
+    foreground: '#d3d0c8'
+- name: Operators
+  scope: keyword.operator
+  settings:
+    fontStyle: ''
+    foreground: '#cc99cc'
+- name: Support Operator
+  scope: support.operator
+  settings:
+    foreground: '#e8e6df' # #f2f0ec'
+- name: Regexp Other
+  scope: meta.regexp.other
+  settings:
+    foreground: '#d3d0c8'
+    # foreground: '#2d2d2d'
+- name: Keywords
+  scope: keyword
+  settings:
+    foreground: '#cc99cc'
+- name: Variables
+  scope: variable
+  settings:
+    foreground: '#f2777a'
+- name: Function arguments
+  scope: variable.parameter
+  settings:
+    fontStyle: italic
+    foreground: '#f2777a'
+- name: Functions
+  scope: entity.name.function, meta.require, support.function.any-method
+  settings:
+    foreground: '#6699cc'
+- name: Classes
+  scope: support.class, entity.name.class, entity.name.type.class, entity.name.type.instance
+  settings:
+    foreground: '#ffcc66'
+# - name: Classes
+#   scope: meta.class
+#   settings:
+#     foreground: '#f2f0ec'
+- name: Methods
+  scope: keyword.other.special-method
+  settings:
+    foreground: '#6699cc'
+- name: Storage
+  scope: storage
+  settings:
+    foreground: '#cc99cc'
+- name: Support
+  scope: support.function
+  settings:
+    foreground: '#66cccc'
+- name: Library constant
+  scope: support.constant
+  settings:
+    fontStyle: ''
+    foreground: '#99cc99'
+- name: Storage Type
+  scope: storage.type
+  settings:
+    fontStyle: italic
+- name: Strings, Inherited Class
+  scope: string, constant.other.symbol, entity.other.inherited-class
+  settings:
+    foreground: '#99cc99'
+- name: Integers
+  scope: constant.numeric
+  settings:
+    foreground: '#f99157'
+- name: Floats
+  scope: none
+  settings:
+    foreground: '#f99157'
+- name: Boolean
+  scope: none
+  settings:
+    foreground: '#f99157'
+- name: Constants
+  scope: constant
+  settings:
+    foreground: '#f99157'
+- name: Tags
+  scope: entity.name.tag
+  settings:
+    foreground: '#f2777a'
+- name: Property names
+  scope: entity.name.property
+  settings:
+    foreground: '#99cc99'
+# - name: Property other names
+#   scope: entity.name.other-property
+#   settings:
+#     foreground: '#99cc99'
+- name: Attributes
+  scope: entity.other.attribute-name
+  settings:
+    foreground: '#f99157'
+- name: Attribute IDs
+  scope: entity.other.attribute-name.id, punctuation.definition.entity
+  settings:
+    foreground: '#6699cc'
+- name: Selector
+  scope: meta.selector
+  settings:
+    foreground: '#cc99cc'
+- name: Values
+  scope: none
+  settings:
+    foreground: '#f99157'
+- name: Headings
+  scope: markup.heading punctuation.definition.heading, entity.name.section
+  settings:
+    fontStyle: ''
+    foreground: '#6699cc'
+- name: Units
+  scope: keyword.other.unit
+  settings:
+    foreground: '#f99157'
+- name: Bold
+  scope: markup.bold, punctuation.definition.bold
+  settings:
+    fontStyle: bold
+    foreground: '#ffcc66'
+- name: Italic
+  scope: markup.italic, punctuation.definition.italic
+  settings:
+    fontStyle: italic
+    foreground: '#cc99cc'
+- name: Code
+  scope: markup.raw.inline
+  settings:
+    foreground: '#99cc99'
+- name: Link Text
+  scope: string.other.link
+  settings:
+    foreground: '#f2777a'
+- name: Link Url
+  scope: meta.link
+  settings:
+    foreground: '#f99157'
+- name: Lists
+  scope: markup.list
+  settings:
+    foreground: '#f2777a'
+- name: Quotes
+  scope: markup.quote
+  settings:
+    foreground: '#f99157'
+- name: Separator
+  scope: meta.separator
+  settings:
+    background: '#515151'
+    foreground: '#d3d0c8'
+- name: Inserted
+  scope: markup.inserted, markup.inserted.git_gutter
+  settings:
+    foreground: '#99cc99'
+- name: Deleted
+  scope: markup.deleted, markup.deleted.git_gutter
+  settings:
+    foreground: '#f2777a'
+- name: Changed
+  scope: markup.changed, markup.changed.git_gutter
+  settings:
+    foreground: '#cc99cc'
+- name: Ignored
+  scope: markup.ignored, markup.ignored.git_gutter
+  settings:
+    foreground: '#515151'
+- name: Untracked
+  scope: markup.untracked, markup.untracked.git_gutter
+  settings:
+    foreground: '#515151'
+- name: Colors
+  scope: constant.other.color
+  settings:
+    foreground: '#66cccc'
+- name: Regular Expressions
+  scope: string.regexp
+  settings:
+    foreground: '#66cccc'
+- name: Escape Characters
+  scope: constant.character.escape
+  settings:
+    foreground: '#66cccc'
+- name: Embedded
+  scope: punctuation.section.embedded, variable.interpolation
+  settings:
+    foreground: '#d27b53'
+- name: Invalid
+  scope: invalid.illegal
+  settings:
+    background: '#f2777a'
+    foreground: '#2d2d2d'
+# - name: Arrow Function
+#   scope: meta.function.arrow
+#   settings:
+#     background: '#513131FF'

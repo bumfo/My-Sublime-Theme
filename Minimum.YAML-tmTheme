@@ -1,0 +1,179 @@
+# [PackageDev] target_format: plist, ext: tmTheme
+name: Minimum
+semanticClass: base16.eighties.minimum
+colorSpaceName: sRGB
+uuid: 36594751-36ac-443a-9f2f-111b815085ca
+gutterSettings:
+  background: '#393939'
+  divider: '#393939'
+  foreground: '#747369'
+  selectionBackground: '#515151'
+  selectionForeground: '#a09f93'
+settings:
+- settings:
+    background: '#2d2d2d'
+    caret: '#d3d0c8'
+    foreground: '#d3d0c8'
+    invisibles: '#747369'
+    lineHighlight: '#393939'
+    selection: '#515151'
+- name: Comments
+  scope: comment
+  settings:
+    foreground: '#747369'
+
+- name: Keywords
+  scope: keyword
+  settings:
+    foreground: '#cc99cc'
+
+- name: Storage
+  scope: storage
+  settings:
+    foreground: '#cc99cc'
+- name: Storage Type
+  scope: storage.type
+  settings:
+    fontStyle: italic
+- name: Storage Other
+  scope: storage.other
+  settings:
+    fontStyle: italic
+    foreground: '#d3d0c8'
+
+- name: Support Functions
+  scope: support.function
+  settings:
+    fontStyle: 'italic'
+    foreground: '#66cccc'
+- name: Any Methods
+  scope: support.function.any-method
+  settings:
+    fontStyle: 'normal'
+    foreground: '#66cccc'
+- name: Library constant
+  scope: support.constant
+  settings:
+    fontStyle: 'italic'
+    foreground: '#99cc99'
+- name: Library variable
+  scope: support.variable
+  settings:
+    fontStyle: 'italic'
+    # foreground: '#f2777a'
+
+- name: Constants
+  scope: constant
+  settings:
+    foreground: '#f99157'
+
+- name: Variables
+  scope: variable
+  settings:
+    fontStyle: 'italic'
+    foreground: '#f2777a'
+- name: Language Variables
+  scope: variable.language
+  settings:
+    fontStyle: 'normal'
+    foreground: '#f2777a'
+- name: Other Variables
+  scope: variable.other
+  settings:
+    fontStyle: 'normal'
+    foreground: '#d3d0c8'
+- name: Function parameters
+  scope: variable.parameter
+  settings:
+    fontStyle: italic
+    foreground: '#f2777a'
+- name: Variable declaration
+  scope: variable.declaration
+  settings:
+    fontStyle: 'italic'
+    foreground: '#d3d0c8'
+
+- name: Punctuation
+  scope: punctuation
+  settings:
+    foreground: '#747369'
+- name: Punctuation Visible
+  scope: 
+    punctuation.definition.string, 
+    punctuation.definition.array, 
+    punctuation.definition.object,
+    punctuation.definition.variable,
+    punctuation.parameters,
+    punctuation.rest-parameter
+  settings:
+    foreground: '#a09f93'
+
+- name: Delimiter
+  scope: meta.delimiter
+  settings:
+    foreground: '#747369'
+
+- name: Strings
+  scope: string
+  settings:
+    foreground: '#99cc99'
+
+- name: Function Names
+  scope: entity.name.function
+  settings:
+    foreground: '#6699cc'
+
+- name: Classes
+  scope: entity.name.class, entity.name.type.class, entity.name.type.instance
+  settings:
+    foreground: '#ffcc66'
+
+- name: Inherited Classes
+  scope: entity.other.inherited-class
+  settings:
+    foreground: '#99cc99'
+
+- name: Support Class
+  scope: support.class
+  # settings:
+    # foreground: '#ffcc66'
+
+- name: Language Class
+  scope: support.class.language
+  settings:
+    fontStyle: 'italic'
+
+- name: Property names
+  scope: entity.name.property, support.other.property-name
+  settings:
+    foreground: '#99cc99'
+
+- name: Tags
+  scope: entity.name.tag
+  settings:
+    foreground: '#f2777a'
+
+- name: Attributes
+  scope: entity.other.attribute-name
+  settings:
+    foreground: '#f99157'
+- name: Attribute IDs
+  scope: entity.other.attribute-name.id, punctuation.definition.entity
+  settings:
+    foreground: '#6699cc'
+
+- name: CSS Property Name
+  scope: support.type.property-name.css
+  settings:
+    # foreground: '#cc99cc'
+    fontStyle: 'italic'
+- name: CSS Vendor Prefix
+  scope: support.type.vendor-prefix.css
+  # settings:
+    # foreground: '#cc99cc'
+    # fontStyle: 'italic'
+
+# - name: Test
+#   scope: meta.statement.var.js
+#   settings: 
+#     background: '#515151'
